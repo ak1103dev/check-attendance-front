@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "next": "^4.1.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "name": "check-attendance-front",
+  "version": "0.0.1",
+  "description": "check attendance in class room or line",
+  "main": "index.js",
+  "author": "ak1103dev",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
