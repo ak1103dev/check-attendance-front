@@ -1,9 +1,4 @@
 {
-  "dependencies": {
-    "next": "^4.1.4",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
-  },
   "name": "check-attendance-front",
   "version": "0.0.1",
   "description": "check attendance in class room or line",
@@ -14,5 +9,14 @@
     "dev": "next",
     "build": "next build",
     "start": "next start"
+  },
+  "dependencies": {
+    "antd": "^2.13.10",
+    "next": "^4.1.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.6.2"
   }
 }

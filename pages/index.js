@@ -1,10 +1,11 @@
+import React from 'react';
 import Link from 'next/link'
+import { Button } from 'antd';
+import App from '../components/App';
 
 export default () =>
-  <div>
-    Click{' '}
+  <App>
     <Link href="/login">
-      <a>here</a>
-    </Link>{' '}
-    to read more
-  </div>
+      <Button type="primary">Go to Login Page</Button>
+    </Link>
+  </App>
